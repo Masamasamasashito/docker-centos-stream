@@ -1,6 +1,6 @@
 # docker-centos-stream
 
-centos-stream image on Docker
+CentOS8.3 based CentOS-stream image on Docker
 
 ## install & docker run
 
