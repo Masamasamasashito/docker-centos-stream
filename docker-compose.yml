@@ -1,0 +1,5 @@
+version: '3'
+services:
+  centos-stream:
+    build: .
+    image: "s-yoshiki/centos-stream:latest"
