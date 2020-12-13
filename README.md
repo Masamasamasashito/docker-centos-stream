@@ -2,7 +2,7 @@
 
 CentOS8.3 based CentOS-stream image on Docker
 
-## install & docker run
+## Install & Run
 
 ```sh
 $ git clone https://github.com/s-yoshiki/docker-centos-stream.git
@@ -14,6 +14,10 @@ $ docker run -i -t -h centos-stream s-yoshiki/centos-stream:latest cat /etc/redh
 # CentOS Stream release 8
 $ docker run -i -t -h centos-stream s-yoshiki/centos-stream:latest /bin/bash                
 ```
+
+## Docker image
+
+https://hub.docker.com/r/yoshiki1123/centos-stream
 
 ## CentOS Stream
 
