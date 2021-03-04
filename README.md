@@ -10,10 +10,13 @@ $ cd docker-centos-stream
 $ docker-compose up -d --build 
 $ docker images
 # masamasamasashito/centos-stream 
-$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest cat /etc/redhat-release  
+$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest
+$ cat /etc/redhat-release  
 # CentOS Stream release 8
-$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest /bin/bash                
+$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest
+$ /bin/bash                
 ```
+In case of windows gitbash, add winpty before docker run.
 
 ## Docker image
 
