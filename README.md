@@ -9,10 +9,10 @@ $ git clone https://github.com/Masamasamasashito/docker-centos-stream.git
 $ cd docker-centos-stream
 $ docker-compose up -d --build 
 $ docker images
-# s-yoshiki/centos-stream 
-$ docker run -i -t -h centos-stream s-yoshiki/centos-stream:latest cat /etc/redhat-release  
+# masamasamasashito/centos-stream 
+$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest cat /etc/redhat-release  
 # CentOS Stream release 8
-$ docker run -i -t -h centos-stream s-yoshiki/centos-stream:latest /bin/bash                
+$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest /bin/bash                
 ```
 
 ## Docker image
