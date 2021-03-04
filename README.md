@@ -5,14 +5,15 @@ CentOS8.3 based CentOS-stream image on Docker
 ## Install & Run
 
 ```sh
-$ git clone https://github.com/Masamasamasashito/docker-centos-stream.git
-$ cd docker-centos-stream
-$ docker-compose up -d --build 
-$ docker images
-# masamasamasashito/centos-stream 
-$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest
+$ git clone https://github.com/Masamasamasashito/docker-centos-stream.git  
+$ cd docker-centos-stream  
+$ docker-compose up -d --build  
+$ docker images  
+# masamasamasashito/centos-stream  
+$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest  
 $ cat /etc/redhat-release  
-# CentOS Stream release 8          
+# CentOS Stream release 8
+$ dnf -y update
 ```
 In case of windows gitbash, add winpty before docker run.
 
