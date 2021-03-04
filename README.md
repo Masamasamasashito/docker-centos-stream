@@ -12,9 +12,7 @@ $ docker images
 # masamasamasashito/centos-stream 
 $ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest
 $ cat /etc/redhat-release  
-# CentOS Stream release 8
-$ docker run -i -t -h centos-stream masamasamasashito/centos-stream:latest
-$ /bin/bash                
+# CentOS Stream release 8          
 ```
 In case of windows gitbash, add winpty before docker run.
 
