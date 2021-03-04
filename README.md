@@ -5,7 +5,7 @@ CentOS8.3 based CentOS-stream image on Docker
 ## Install & Run
 
 ```sh
-$ git clone https://github.com/s-yoshiki/docker-centos-stream.git
+$ git clone https://github.com/Masamasamasashito/docker-centos-stream.git
 $ cd docker-centos-stream
 $ docker-compose up -d --build 
 $ docker images
